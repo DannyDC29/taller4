@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="DanielaDC">
+    <title>Ejemplo Formulario #2</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th colspan="2" style="color: red;font-size: 170%;">
+                    <img src="https://yt3.googleusercontent.com/WK5IDYG8zAsSx-ibjtnX4-ai0v1AG8Ev64hW2zkq0Cwk_TA7idZDgVtnMhnYZPW2vy8WVySYnKk=s900-c-k-c0x00ffffff-no-rj" alt="" height="50px"> Employee Registration Form
+                </th>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="radio" name="sex">Mr.<input type="radio" name="sex">Mrs.<input type="radio" name="sex">Ms
+                </td>
+            </tr>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" autofocus placeholder="First Name" pattern="(Mr|Ms|Mrs) [A-Za-z]+ [A-Za-z]+"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" placeholder="Last Name" pattern="(Mr|Ms|Mrs) [A-Za-z]+ [A-Za-z]+"></td>
+            </tr>
+            <tr>
+                <td>Mail</td>
+                <td><input type="email"
+                    maxlength="100"
+                    pattern=".+@cecar.edu.co"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" maxlength="100"></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><select>
+                    <option value="">Seleccione una opción</option>
+                    <option value="">Bogotá</option>
+                    <option value="">Medellín</option>
+                    <option value="">Montería</option>
+                    <option value="">Sincelejo</option>
+                    <option value="">Bello</option>
+                    <option value="">Santa Marta</option>
+                    <option value="">Bucaramanga</option>
+                    <option value="">Cúcuta</option>
+                    <option value="">Villavicencio</option>
+                    <option value="">Pereira</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Zip</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Upload Photo</td>
+                <td><input type="file"></td>
+            </tr>
+    </table>
+    </form>
+  
+</body>
+</html>
